@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, balck);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.logo {
+  display: flex;
+  height: 50px;
+  background-color: burlywood;
+  align-self: center;
+}
+.categoty {
+  height: 50px;
+  background-color: chocolate;
+}
+
+.avtar {
+  height: 50px;
+  background-color: burlywood;
+}
+
+.container {
+  flex: 9;
+  background-color: blue;
+}

@@ -1,33 +1,19 @@
-import Homestyle from "./style.module.css";
-import NotificationsIcon from "@mui/icons-material/Notifications";
-import PersonIcon from "@mui/icons-material/Person";
-export default function () {
+import Navbar from "./navbar";
+import Card from "./card";
+import ContentHeader from "./contentHeader";
+import Table from "./table";
+
+export default function HomePage() {
   return (
     <>
-      <div className="flex flex-col">
-        <div className="flex flex-row justify-between  h-14">
-          <div className="align-middle">
-            <span>
-              <i></i>I-flow
-            </span>
+      <div className="flex flex-col flex-wrap justify-between font-sans p-14">
+        <Navbar />
+        <div className="flex">
+          <Card />
+          <div className="flex flex-9  flex-col p-24 pt-12">
+            <ContentHeader />
+            <Table />
           </div>
-          <div className="">
-            <span>Dashboard</span>
-            <span>Invoice</span>
-            <span>Client</span>
-            <span>Setting</span>
-          </div>
-          <div className="">
-            <span>
-              <NotificationsIcon />
-            </span>
-            <span>
-              <PersonIcon />
-            </span>
-          </div>
-        </div>
-        <div className={Homestyle.container}>
-          <h1>content</h1>
         </div>
       </div>
     </>

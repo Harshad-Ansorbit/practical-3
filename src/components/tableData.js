@@ -18,27 +18,27 @@ export default function tableData(prop) {
     <>
       <tr className="text-left border-b-2">
         <td>
-          <div className="flex mt-5">
-            <div class="shrink-0 px-2">
+          <div className="flex my-5">
+            <div className="shrink-0">
               <img
-                class="h-10 w-10 object-cover rounded-full"
+                className="h-10 w-10 object-cover rounded-full"
                 src={prop.source}
                 alt="Avtar"
               />
             </div>
-            <div>
-              <div>
+            <div className="ml-3">
+              <div className="font-bold">
                 <span>{prop.name}</span>
               </div>
-              <div>{prop.userId}</div>
+              <div className="text-stone-400 text-sm">{prop.userId}</div>
             </div>
           </div>
         </td>
         <td>
-          <div>{prop.date}</div>
+          <div className="font-bold">{prop.date}</div>
         </td>
         <td>
-          <div>{prop.amount}</div>
+          <div className="font-bold">{prop.amount}</div>
         </td>
         <td>
           <div className={bgClass}>{prop.status}</div>

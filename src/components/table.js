@@ -1,6 +1,6 @@
 import TableHeader from "./tableHeader";
 import TableData from "./tableData";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import SideArrow from "../icons/SideArrow";
 
 export default function table() {
   return (
@@ -25,7 +25,7 @@ export default function table() {
                 date="08/21/2019"
                 amount="$244.55"
                 status="Unpaid"
-                source="https://cdn3.vectorstock.com/i/thumb-large/30/97/flat-business-man-user-profile-avatar-icon-vector-4333097.jpg"
+                source="https://picsum.photos/200/300"
               />
 
               <TableData
@@ -34,7 +34,7 @@ export default function table() {
                 date="08/21/2019"
                 amount="$11.67"
                 status="Overdue"
-                source="https://cdn2.vectorstock.com/i/thumb-large/34/96/flat-business-man-user-profile-avatar-in-suit-vector-4333496.jpg"
+                source="https://picsum.photos/200"
               />
 
               <TableData
@@ -43,7 +43,7 @@ export default function table() {
                 date="08/21/2019"
                 amount="$273.88"
                 status="paid"
-                source="https://cdn5.vectorstock.com/i/thumb-large/50/89/user-profile-or-my-account-avatar-login-icon-vector-31775089.jpg"
+                source="https://picsum.photos/seed/picsum/200/300"
               />
 
               <TableData
@@ -52,23 +52,21 @@ export default function table() {
                 date="08/21/2019"
                 amount="$244.55"
                 status="Draft"
-                source="https://cdn1.vectorstock.com/i/thumb-large/22/10/businessman-glyph-icon-vector-24722210.jpg"
+                source="https://picsum.photos/200/300?grayscale"
               />
             </tbody>
             <tfoot>
               <tr>
                 <td colSpan="3">
-                  <div className="text-slate-400 mt-10">
+                  <div className="text-slate-400 mt-5">
                     <span>Showing 5 out of 120</span>
                   </div>
                 </td>
                 <td align="right" colSpan="2">
-                  <div className="flex mt-10">
-                    <div className="text-violet-700 font-semibold ">
-                      See all
-                    </div>
+                  <div className="flex mt-5 text-violet-700">
+                    <div className=" font-semibold ">See all</div>
                     <div>
-                      <ArrowForwardIcon />
+                      <SideArrow className="h-6 w-10 ml-2 fill-current" />
                     </div>
                   </div>
                 </td>

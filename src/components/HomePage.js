@@ -6,7 +6,7 @@ import Table from "./table";
 export default function HomePage() {
   return (
     <>
-      <div className="flex flex-col flex-wrap justify-between font-sans p-14">
+      <div className="flex flex-col flex-wrap justify-between font-sans px-14 pb-14 pt-8">
         <Navbar />
         <div className="flex">
           <Card />

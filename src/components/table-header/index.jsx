@@ -1,5 +1,5 @@
-import Printer from "../icons/printer";
-import Download2 from "../icons/download/download2";
+import Printer from "../../icons/printer";
+import Download2 from "../../icons/download/download2";
 
 export default function tableHeader() {
   return (

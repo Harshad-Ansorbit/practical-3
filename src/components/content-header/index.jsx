@@ -1,9 +1,9 @@
-import Square from "../icons/square";
-import List from "../icons/list";
-import ActionCard from "./actionCard";
-import List2 from "../icons/list/list2";
-import Download from "../icons/download";
-import Search from "../icons/search";
+import Square from "../../icons/square";
+import List from "../../icons/list";
+import ActionCard from "../action-card";
+import List2 from "../../icons/list/list2";
+import Download from "../../icons/download";
+import Search from "../../icons/search";
 
 export default function contentHeader() {
   return (

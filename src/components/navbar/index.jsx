@@ -1,10 +1,10 @@
-import Dashboard from "../icons/Dashboard";
-import Billing from "../icons/billing";
-import ListView from "../icons/listview";
-import Clients from "../icons/clients";
-import Settings from "../icons/settings";
-import Bell from "../icons/bell";
-import Nav from "./nav";
+import Dashboard from "../../icons/Dashboard";
+import Billing from "../../icons/billing";
+import ListView from "../../icons/listview";
+import Clients from "../../icons/clients";
+import Settings from "../../icons/settings";
+import Bell from "../../icons/bell";
+import Nav from "../nav";
 
 export default function navbar() {
   return (

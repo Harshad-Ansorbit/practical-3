@@ -1,9 +1,9 @@
-import SideArrow from "../icons/SideArrow";
+import SideArrow from "../../icons/SideArrow";
 
 export default function card() {
   return (
     <>
-      <div className="flex flex-3 justify-around flex-wrap ml-14 pt-12 h-full">
+      <div className="hidden  2xl:flex flex-3 justify-around flex-wrap pt-12 h-full">
         <div className="flex flex-col flex-wrap bg-violet-700 max-h-full p-8 w-full shadow-2xl rounded-3xl">
           <div className="flex justify-between flex-wrap px-5 py-3">
             <div>

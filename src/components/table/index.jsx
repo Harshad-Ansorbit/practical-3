@@ -1,6 +1,6 @@
-import TableHeader from "./tableHeader";
-import TableData from "./tableData";
-import SideArrow from "../icons/SideArrow";
+import TableHeader from "../table-header";
+import TableData from "../table-data";
+import SideArrow from "../../icons/SideArrow";
 
 export default function table() {
   return (
